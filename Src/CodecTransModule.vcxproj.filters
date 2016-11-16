@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{d73c17de-5d73-4c23-ade6-95fb34e9a030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uitl">
+      <UniqueIdentifier>{9b4c410b-4111-417a-bade-1167cb7ac9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\HPSocket">
+      <UniqueIdentifier>{e84ebdd1-0bdf-4112-9396-fddd6e1b82fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStruct">
+      <UniqueIdentifier>{f03b7e47-9fc8-4a63-9380-4a794654d0c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\CodecTransModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\CodecTransModuleDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoFileOpr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TransSocket.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Uitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HPSocket\HPSocket.h">
+      <Filter>Net\HPSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HPSocket\SocketInterface.h">
+      <Filter>Net\HPSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="TransServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TransClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapMark.h">
+      <Filter>Uitl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Global\helper.h">
+      <Filter>Net\HPSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefine.h">
+      <Filter>DataStruct</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CodecTransModule.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CodecTransModule.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CodecTransModule.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\CodecTransModule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoFileOpr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CodecTransModuleDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TransSocket.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Uitl</Filter>
+    </ClCompile>
+    <ClCompile Include="TransServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TransClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapMark.cpp">
+      <Filter>Uitl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Global\helper.cpp">
+      <Filter>Net\HPSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
